@@ -47,8 +47,9 @@ classDiagram
         - int DiasReservados
         + void CadastrarHospedes(List<Pessoa> hospedes)
         + void CadastrarSuite(Suite suite)
+        + void ListarHospedes()
         + int ObterQuantidadeHospedes()
-        + decimal CalcularValorDiaria()
+        + decimal CalcularValorDiaria(int diasHospedagem)
     }
 
     Pessoa --> Reserva : Hospedes
