@@ -15,8 +15,8 @@ Realizar uma reserva no hotel de acordo com a quantidade de hóspedes recebida e
 |Objeto|Descrição|
 |--|--|
 |Hóspede| Recebe o nome e o sobrenome|
-|Suíte| Possui um tipo, capacidade de lotação e um custo diário|
-|Reserva| É composta pelos objetos 'Hóspede' e 'Suíte' Realiza a reserva de acordo com a quantidade de hospedes, suíte e dias reservados|
+|Suíte| Possui um tipo, capacidade de ocupação e um custo diário|
+|Reserva| É composta pelos objetos 'Hóspede' e 'Suíte', calcula o custo da reserva de acordo com a quantidade de hospedes, suíte e dias hospedado|
 
 
 ## Resolução do Desafio
