@@ -7,9 +7,10 @@ Pessoa pessoa = new Pessoa();
 
 string nomeCompleto = null;
 
+Console.WriteLine("\n   1. Cadastro de hóspedes");
+
 do
 {
-    Console.WriteLine("\n   1. Cadastro de hóspedes");
     Console.Write("     --> Informe o nome (simplesmente pressione <ENTER> para sair...): ");
 
     nomeCompleto = Console.ReadLine();
@@ -64,7 +65,7 @@ reserva.ListarHospedes();
 reserva.CadastrarSuite();
 
 Console.WriteLine($"\n  --> Dia(s) de hospedagem: {diasHospedagem}");
-Console.WriteLine($"\n  --> TOTAL: R${reserva.CalcularValorDiaria(diasHospedagem)}");
+Console.WriteLine($"\n  --> TOTAL: R${reserva.CalcularValorDiaria(diasHospedagem).ToString("##.##")}");
 
 
 

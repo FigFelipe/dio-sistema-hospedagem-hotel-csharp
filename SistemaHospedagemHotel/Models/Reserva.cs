@@ -10,7 +10,7 @@ namespace SistemaHospedagemHotel.Models
     internal class Reserva
     {
 
-        public CultureInfo culture = new CultureInfo("pt-BR");
+        public CultureInfo culture = new CultureInfo("en-US");
 
         // Atributos
 
