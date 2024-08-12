@@ -65,7 +65,7 @@ reserva.ListarHospedes();
 reserva.CadastrarSuite();
 
 Console.WriteLine($"\n  --> Dia(s) de hospedagem: {diasHospedagem}");
-Console.WriteLine($"\n  --> TOTAL: R${reserva.CalcularValorDiaria(diasHospedagem).ToString("##.##")}");
+Console.WriteLine($"\n  --> TOTAL: R${reserva.CalcularValorDiaria(diasHospedagem):N2}");
 
 
 
