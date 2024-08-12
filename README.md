@@ -55,4 +55,70 @@ classDiagram
     Pessoa --> Reserva : Hospedes
     Suite --> Reserva : Suite
 ```
+## Exemplo de Entrada / Saída
+* Cadastro de 1 (um) unico hóspede, 10 (dez) dias de duração de hospedagem:
+
+Entrada
+```
+ --- Sistema de Hospedagem ---
+
+   1. Cadastro de hóspedes
+     --> Informe o nome (simplesmente pressione <ENTER> para sair...): hospede um
+
+```
+
+Saída
+```
+ --- RESUMO DA RESERVA ---
+
+  --> Quantidade de hóspedes: 1
+
+        1. Hospede Um
+
+ --- Suíte recomendada ---
+
+  --> Suíte 'Comum', até 3 hóspedes, R$30,00/dia
+
+  --> Dia(s) de hospedagem: 10
+
+  --> TOTAL: R$300,00
+```
+
+   
+* Cadastro de 5 (cinco) hóspedes, 10 (dez) dias de duração de hospedagem:
+
+Entrada
+```
+ --- Sistema de Hospedagem ---
+
+   1. Cadastro de hóspedes
+     --> Informe o nome (simplesmente pressione <ENTER> para sair...): hospede um
+     --> Informe o nome (simplesmente pressione <ENTER> para sair...): hospede dois
+     --> Informe o nome (simplesmente pressione <ENTER> para sair...): hospede tres
+     --> Informe o nome (simplesmente pressione <ENTER> para sair...): hospede quatro
+     --> Informe o nome (simplesmente pressione <ENTER> para sair...): hospede cinco
+```
+
+Saída
+```
+ --- RESUMO DA RESERVA ---
+
+  --> Quantidade de hóspedes: 5
+
+        1. Hospede Um
+        2. Hospede Dois
+        3. Hospede Tres
+        4. Hospede Quatro
+        5. Hospede Cinco
+
+ --- Suíte recomendada ---
+
+  --> Suíte 'Premium', a partir de 4 hóspedes, R$50,00/dia
+
+  --> Dia(s) de hospedagem: 10
+
+   >> GANHOU DESCONTO - 10% OFF! <<
+
+  --> TOTAL: R$450,00
+```
 
